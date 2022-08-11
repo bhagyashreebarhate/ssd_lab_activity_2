@@ -1,2 +1,2 @@
-grep '^[^#]' /etc/shells | awk -F "/" '{print $3}'
+grep '^[^#]' /etc/shells | awk -F "/" '{print $NF}'
 
